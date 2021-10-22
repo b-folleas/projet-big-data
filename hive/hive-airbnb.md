@@ -1,6 +1,6 @@
 ```sh
 hdfs dfs -mkdir -p hive/airbnb
-hdfs dfs -rm -p hive/airbnb/airbnb_filtered.csv
+hdfs dfs -rm hive/airbnb/airbnb_filtered.csv
 hdfs dfs -copyFromLocal airbnb_filtered.csv hive/airbnb
 
 hive-beeline
@@ -36,9 +36,7 @@ stored as textfile
 location '/user/formation07/hive/airbnb/'
 tblproperties ("skip.header.line.count"="1");
 
-select * from airbnb  limit 10;
-
-create table airbnb_clean (
+create table airbnb_wip1 (
   id int,
   neighbourhood_cleansed string,
   latitude double,
@@ -65,7 +63,7 @@ lines terminated by '\n'
 stored as textfile
 tblproperties ("skip.header.line.count"="1");
 
-insert into airbnb_clean (id,neighbourhood_cleansed,latitude,longitude,room_type,bedrooms,beds,price,has_availability,availability_30,availability_60,availability_90,availability_365,calendar_last_scraped,host_is_superhost,review_scores_value,calculated_host_listings_count,calculated_host_listings_count_entire_homes,calculated_host_listings_count_private_rooms,calculated_host_listings_count_shared_rooms)
+insert into airbnb_wip1 (id,neighbourhood_cleansed,latitude,longitude,room_type,bedrooms,beds,price,has_availability,availability_30,availability_60,availability_90,availability_365,calendar_last_scraped,host_is_superhost,review_scores_value,calculated_host_listings_count,calculated_host_listings_count_entire_homes,calculated_host_listings_count_private_rooms,calculated_host_listings_count_shared_rooms)
 select id,neighbourhood_cleansed,latitude,longitude,room_type,bedrooms,beds,cast(cast(replace(price, '$', '') as float) * 0.859187 * availability_365 as float) as price,
 case has_availability when 't' then 1 else 0 end,
 availability_30,availability_60,availability_90,availability_365,calendar_last_scraped,
@@ -73,5 +71,6 @@ case host_is_superhost when 't' then 1 else 0 end,
 review_scores_value,calculated_host_listings_count,calculated_host_listings_count_entire_homes,calculated_host_listings_count_private_rooms,calculated_host_listings_count_shared_rooms
 from airbnb;
 
+create table airbnb_clean as select * from airbnb_wip1 where price is not null and price > 1;
 ```
 

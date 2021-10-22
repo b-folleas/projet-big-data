@@ -8,4 +8,4 @@ cadastre_df = cadastre_df[columns_to_keep].copy()
 
 print(cadastre_df.to_string())
 
-cadastre_df.to_csv('cadastre_filtered.csv', index=False)
+cadastre_df.to_csv('cadastre_filtered.csv', index=True, index_label='id')
