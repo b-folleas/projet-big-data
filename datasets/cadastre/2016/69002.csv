@@ -1,0 +1,15 @@
+id_mutation,date_mutation,numero_disposition,nature_mutation,valeur_fonciere,adresse_numero,adresse_suffixe,adresse_nom_voie,adresse_code_voie,code_postal,code_commune,nom_commune,code_departement,ancien_code_commune,ancien_nom_commune,id_parcelle,ancien_id_parcelle,numero_volume,lot1_numero,lot1_surface_carrez,lot2_numero,lot2_surface_carrez,lot3_numero,lot3_surface_carrez,lot4_numero,lot4_surface_carrez,lot5_numero,lot5_surface_carrez,nombre_lots,code_type_local,type_local,surface_reelle_bati,nombre_pieces_principales,code_nature_culture,nature_culture,code_nature_culture_speciale,nature_culture_speciale,surface_terrain,longitude,latitude
+2016-852484,2016-03-08,000001,Vente,40000,5031,A,LE BOURG,B008,69790,69002,Aigueperse,69,,,69002000AB0113,,,1,,2,,,,,,,,2,1,Maison,102,3,,,,,,4.4332,46.276869
+2016-854540,2016-09-14,000001,Vente,17500,,,BOIS DES HAYES,B004,69790,69002,Aigueperse,69,,,690020000A0160,,,,,,,,,,,,,0,,,,,BT,taillis simples,,,49,4.425408,46.291108
+2016-854540,2016-09-14,000001,Vente,17500,,,BOIS DES HAYES,B004,69790,69002,Aigueperse,69,,,690020000A0165,,,,,,,,,,,,,0,,,,,BR,futaies résineuses,,,3519,4.423711,46.291864
+2016-854540,2016-09-14,000001,Vente,17500,,,BOIS DES HAYES,B004,69790,69002,Aigueperse,69,,,690020000A0165,,,,,,,,,,,,,0,,,,,BT,taillis simples,,,3519,4.423711,46.291864
+2016-855135,2016-10-31,000003,Vente,90000,,,MARCILLY,B032,69790,69002,Aigueperse,69,,,69002000AH0272,,,,,,,,,,,,,0,,,,,P,prés,,,9679,4.420035,46.282311
+2016-855135,2016-10-31,000003,Vente,90000,5094,,MARCILLY,B032,69790,69002,Aigueperse,69,,,69002000AH0274,,,,,,,,,,,,,0,1,Maison,78,2,S,sols,,,1620,4.420177,46.282277
+2016-855135,2016-10-31,000003,Vente,90000,,,MARCILLY,B032,69790,69002,Aigueperse,69,,,69002000AH0275,,,,,,,,,,,,,0,,,,,S,sols,,,492,4.420199,46.282063
+2016-855479,2016-11-30,000001,Vente,74000,5104,,CHANTE ALOUETTE,B012,69790,69002,Aigueperse,69,,,69002000AH0001,,,,,,,,,,,,,0,1,Maison,75,4,S,sols,,,325,4.413195,46.286182
+2016-855479,2016-11-30,000001,Vente,74000,,,CHANTE ALOUETTE,B012,69790,69002,Aigueperse,69,,,69002000AH0003,,,,,,,,,,,,,0,,,,,J,jardins,,,93,4.413246,46.286101
+2016-855479,2016-11-30,000001,Vente,74000,,,CHANTE ALOUETTE,B012,69790,69002,Aigueperse,69,,,69002000AH0244,,,,,,,,,,,,,0,,,,,J,jardins,,,220,4.412973,46.286186
+2016-855479,2016-11-30,000001,Vente,74000,,,CHANTE ALOUETTE,B012,69790,69002,Aigueperse,69,,,69002000AH0246,,,,,,,,,,,,,0,,,,,J,jardins,,,330,4.413057,46.286091
+2016-855479,2016-11-30,000001,Vente,74000,,,CHANTE ALOUETTE,B012,69790,69002,Aigueperse,69,,,69002000AH0247,,,,,,,,,,,,,0,,,,,J,jardins,,,22,4.412979,46.286259
+2016-855813,2016-12-22,000001,Vente,2200,,,LES GORLATS,B028,69790,69002,Aigueperse,69,,,690020000D0016,,,,,,,,,,,,,0,,,,,P,prés,,,11855,4.3985,46.272913
+2016-855813,2016-12-22,000001,Vente,2200,,,LES GORLATS,B028,69790,69002,Aigueperse,69,,,690020000D0017,,,,,,,,,,,,,0,,,,,BR,futaies résineuses,,,2160,4.398311,46.273146

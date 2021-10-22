@@ -1,0 +1,20 @@
+id_mutation,date_mutation,numero_disposition,nature_mutation,valeur_fonciere,adresse_numero,adresse_suffixe,adresse_nom_voie,adresse_code_voie,code_postal,code_commune,nom_commune,code_departement,ancien_code_commune,ancien_nom_commune,id_parcelle,ancien_id_parcelle,numero_volume,lot1_numero,lot1_surface_carrez,lot2_numero,lot2_surface_carrez,lot3_numero,lot3_surface_carrez,lot4_numero,lot4_surface_carrez,lot5_numero,lot5_surface_carrez,nombre_lots,code_type_local,type_local,surface_reelle_bati,nombre_pieces_principales,code_nature_culture,nature_culture,code_nature_culture_speciale,nature_culture_speciale,surface_terrain,longitude,latitude
+2016-851993,2016-01-15,000001,Vente,306980,11,,RUE DES TULIPIERS,0143,69480,69005,Ambérieux,69,,,69005000AB0325,,,,,,,,,,,,,0,,,,,AG,terrains d'agrément,PARC,Parc,16,4.733913,45.927111
+2016-851993,2016-01-15,000001,Vente,306980,11,,RUE DES TULIPIERS,0143,69480,69005,Ambérieux,69,,,69005000AB0332,,,,,,,,,,,,,0,1,Maison,110,4,AG,terrains d'agrément,PARC,Parc,784,4.733831,45.92701
+2016-851993,2016-01-15,000001,Vente,306980,11,,RUE DES TULIPIERS,0143,69480,69005,Ambérieux,69,,,69005000AB0332,,,,,,,,,,,,,0,1,Maison,110,4,S,sols,,,500,4.733831,45.92701
+2016-852596,2016-03-25,000002,Vente,178000,270,,RUE DES CREUX,0017,69480,69005,Ambérieux,69,,,69005000AB0481,,,,,,,,,,,,,0,1,Maison,56,3,,,,,,4.740656,45.924982
+2016-852835,2016-04-06,000001,Vente,342700,96,,RUE DU CLOS DE LA CURE,0018,69480,69005,Ambérieux,69,,,69005000AB0301,,,,,,,,,,,,,0,1,Maison,127,6,AG,terrains d'agrément,PARC,Parc,840,4.738104,45.926691
+2016-852835,2016-04-06,000001,Vente,342700,96,,RUE DU CLOS DE LA CURE,0018,69480,69005,Ambérieux,69,,,69005000AB0301,,,,,,,,,,,,,0,1,Maison,127,6,S,sols,,,500,4.738104,45.926691
+2016-853579,2016-06-20,000001,Vente,350000,32,,RUE DES TULIPIERS,0143,69480,69005,Ambérieux,69,,,69005000AB0324,,,,,,,,,,,,,0,1,Maison,144,5,AG,terrains d'agrément,PARC,Parc,790,4.733152,45.927198
+2016-853579,2016-06-20,000001,Vente,350000,32,,RUE DES TULIPIERS,0143,69480,69005,Ambérieux,69,,,69005000AB0324,,,,,,,,,,,,,0,1,Maison,144,5,S,sols,,,500,4.733152,45.927198
+2016-853579,2016-06-20,000001,Vente,350000,32,,RUE DES TULIPIERS,0143,69480,69005,Ambérieux,69,,,69005000AB0328,,,,,,,,,,,,,0,,,,,S,sols,,,310,4.733405,45.927021
+2016-854449,2016-08-29,000001,Vente,358000,256,,RUE DU CLOS DE LA CURE,0018,69480,69005,Ambérieux,69,,,69005000AB0307,,,,,,,,,,,,,0,1,Maison,135,5,S,sols,,,1336,4.738996,45.925661
+2016-855099,2016-11-08,000001,Vente,1781000,,,GRANDS CHENEVRIERS,B011,69480,69005,Ambérieux,69,,,69005000ZE0096,,,,,,,,,,,,,0,,,,,S,sols,,,625,4.737791,45.929325
+2016-855099,2016-11-08,000001,Vente,1781000,5116,,GRANDS CHENEVRIERS,B011,69480,69005,Ambérieux,69,,,69005000ZE0100,,,,,,,,,,,,,0,4,Local industriel. commercial ou assimilé,4375,0,S,sols,,,4209,4.738301,45.92963
+2016-855099,2016-11-08,000001,Vente,1781000,,,GRANDS CHENEVRIERS,B011,69480,69005,Ambérieux,69,,,69005000ZE0104,,,,,,,,,,,,,0,,,,,S,sols,,,8,4.738269,45.930005
+2016-855099,2016-11-08,000001,Vente,1781000,,,GRANDS CHENEVRIERS,B011,69480,69005,Ambérieux,69,,,69005000ZE0116,,,,,,,,,,,,,0,,,,,S,sols,,,179,4.738211,45.929271
+2016-855100,2016-11-08,000002,Vente,720000,,,GRANDS CHENEVRIERS,B011,69480,69005,Ambérieux,69,,,69005000ZE0095,,,,,,,,,,,,,0,,,,,AG,terrains d'agrément,PARC,Parc,642,4.737282,45.929607
+2016-855100,2016-11-08,000002,Vente,720000,5119,,RUE DU VAUZEL,0144,69480,69005,Ambérieux,69,,,69005000ZE0099,,,,,,,,,,,,,0,4,Local industriel. commercial ou assimilé,1053,0,AG,terrains d'agrément,PARC,Parc,1000,4.737617,45.929914
+2016-855100,2016-11-08,000002,Vente,720000,5119,,RUE DU VAUZEL,0144,69480,69005,Ambérieux,69,,,69005000ZE0099,,,,,,,,,,,,,0,4,Local industriel. commercial ou assimilé,1053,0,S,sols,,,2489,4.737617,45.929914
+2016-855100,2016-11-08,000002,Vente,720000,,,GRANDS CHENEVRIERS,B011,69480,69005,Ambérieux,69,,,69005000ZE0103,,,,,,,,,,,,,0,,,,,S,sols,,,25,4.737903,45.930176
+2016-855771,2016-12-22,000001,Vente,138350,79,,IMP IMPASSE DU MOULIN,0130,69480,69005,Ambérieux,69,,,69005000AB0353,,,1,52.32,6,,7,,,,,,3,2,Appartement,54,3,,,,,,4.731669,45.928107
