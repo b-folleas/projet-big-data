@@ -1,4 +1,13 @@
 ```sh
+hive-beeline
+
+drop table cadastre;
+drop table cadastre_wip1;
+drop table cadastre_clean;
+
+ctrl+c
+
+hdfs dfs -rm hive/cadastre/cadastre_filtered.csv
 hdfs dfs -mkdir -p hive/cadastre
 
 hive-beeline
@@ -17,6 +26,7 @@ create external table cadastre (
   code_departement string,
   lot1_surface_carrez float,
   surface_reelle_bati float,
+  type_local string,
   nombre_pieces_principales int,
   surface_terrain float,
   longitude float,
@@ -35,10 +45,12 @@ hdfs dfs –copyFromLocal cadastre_filtered.csv hive/cadastre
 
 hive-beeline
 
-select * from cadastre;
+select * from cadastre limit 10;
 
 # filter Vente
-create table cadastre_wip1 as select * from cadastre where nature_mutation='Vente' and code_postal like '6900_';
+create table cadastre_wip1 as
+  select * from cadastre where nature_mutation='Vente'
+  and code_postal like '6900_';
 
 create table cadastre_clean (
   id_mutation string,
@@ -54,6 +66,7 @@ create table cadastre_clean (
   code_departement string,
   lot1_surface_carrez float,
   surface_reelle_bati float,
+  type_local string,
   nombre_pieces_principales int,
   surface_terrain float,
   longitude float,
@@ -64,8 +77,8 @@ lines terminated by '\n'
 stored as textfile
 tblproperties ("skip.header.line.count"="1");
 
-insert into cadastre_clean (id_mutation,date_mutation,nature_mutation,price,adresse_numero,adresse_suffixe,adresse_nom_voie,adresse_code_voie,code_postal,nom_commune,code_departement,lot1_surface_carrez,surface_reelle_bati,nombre_pieces_principales,surface_terrain,longitude,latitude)
-select id_mutation,date_mutation,nature_mutation,valeur_fonciere, coalesce(adresse_numero, 0), adresse_suffixe,adresse_nom_voie,adresse_code_voie, coalesce(code_postal, 0),nom_commune,code_departement, lot1_surface_carrez,surface_reelle_bati,coalesce(nombre_pieces_principales, 0),coalesce(surface_terrain,0),round(longitude, 5),round(latitude, 5)
+insert into cadastre_clean (id_mutation,date_mutation,nature_mutation,price,adresse_numero,adresse_suffixe,adresse_nom_voie,adresse_code_voie,code_postal,nom_commune,code_departement,lot1_surface_carrez,surface_reelle_bati,type_local,nombre_pieces_principales,surface_terrain,longitude,latitude)
+select id_mutation,date_mutation,nature_mutation,valeur_fonciere, coalesce(adresse_numero, 0), adresse_suffixe,adresse_nom_voie,adresse_code_voie, coalesce(code_postal, 0),nom_commune,code_departement, lot1_surface_carrez,surface_reelle_bati,type_local,coalesce(nombre_pieces_principales, 0),coalesce(surface_terrain,0),round(longitude, 5),round(latitude, 5)
 from cadastre_wip1;
 ```
 
