@@ -1,0 +1,19 @@
+id_mutation,date_mutation,numero_disposition,nature_mutation,valeur_fonciere,adresse_numero,adresse_suffixe,adresse_nom_voie,adresse_code_voie,code_postal,code_commune,nom_commune,code_departement,ancien_code_commune,ancien_nom_commune,id_parcelle,ancien_id_parcelle,numero_volume,lot1_numero,lot1_surface_carrez,lot2_numero,lot2_surface_carrez,lot3_numero,lot3_surface_carrez,lot4_numero,lot4_surface_carrez,lot5_numero,lot5_surface_carrez,nombre_lots,code_type_local,type_local,surface_reelle_bati,nombre_pieces_principales,code_nature_culture,nature_culture,code_nature_culture_speciale,nature_culture_speciale,surface_terrain,longitude,latitude
+2019-1008389,2019-01-22,000001,Vente,2200,,,BOIS DES HAYES,B004,69790,69002,Aigueperse,69,,,690020000A0217,,,,,,,,,,,,,0,,,,,BR,futaies résineuses,,,430,4.420251,46.290006
+2019-1008389,2019-01-22,000001,Vente,2200,,,BOIS DES HAYES,B004,69790,69002,Aigueperse,69,,,690020000A0229,,,,,,,,,,,,,0,,,,,BR,futaies résineuses,,,6256,4.419514,46.290205
+2019-1009353,2019-03-18,000001,Vente,145000,,,LA BARRE,B001,69790,69002,Aigueperse,69,,,69002000AE0009,,,,,,,,,,,,,0,,,,,T,terres,,,1370,4.416661,46.273076
+2019-1009353,2019-03-18,000001,Vente,145000,5065,,LA BARRE,B001,69790,69002,Aigueperse,69,,,69002000AE0010,,,,,,,,,,,,,0,1,Maison,80,3,S,sols,,,1075,4.416757,46.272822
+2019-1009977,2019-05-04,000001,Vente,1000,,,LE BOURG,B008,69790,69002,Aigueperse,69,,,69002000AB0061,,,,,,,,,,,,,0,,,,,J,jardins,,,318,4.436221,46.276018
+2019-1010067,2019-05-04,000002,Echange,1,,,LE BOURG,B008,69790,69002,Aigueperse,69,,,69002000AB0176,,,,,,,,,,,,,0,,,,,J,jardins,,,42,4.435845,46.277263
+2019-1010067,2019-05-04,000003,Echange,1,,,LE BOURG,B008,69790,69002,Aigueperse,69,,,69002000AB0178,,,,,,,,,,,,,0,,,,,S,sols,,,42,4.435456,46.277108
+2019-1011419,2019-08-06,000001,Vente,19700,5012,,LE BOURG,B008,69790,69002,Aigueperse,69,,,69002000AB0173,,,,,,,,,,,,,0,4,Local industriel. commercial ou assimilé,50,0,S,sols,,,329,4.434473,46.277667
+2019-1011419,2019-08-06,000001,Vente,19700,5012,,LE BOURG,B008,69790,69002,Aigueperse,69,,,69002000AB0173,,,,,,,,,,,,,0,1,Maison,103,4,S,sols,,,329,4.434473,46.277667
+2019-1011444,2019-08-06,000002,Vente,300,,,LE BOURG,B008,69790,69002,Aigueperse,69,,,69002000AB0180,,,,,,,,,,,,,0,,,,,S,sols,,,120,4.434033,46.277744
+2019-1011703,2019-09-20,000001,Vente,98000,5157,A,LA ROCHE,B044,69790,69002,Aigueperse,69,,,69002000AK0116,,,,,,,,,,,,,0,1,Maison,78,3,T,terres,,,1352,4.453576,46.278631
+2019-1011703,2019-09-20,000001,Vente,98000,5157,A,LA ROCHE,B044,69790,69002,Aigueperse,69,,,69002000AK0116,,,,,,,,,,,,,0,1,Maison,78,3,S,sols,,,1155,4.453576,46.278631
+2019-1012432,2019-10-17,000001,Vente,1000,,,CHEVAGNY,B016,69790,69002,Aigueperse,69,,,69002000AK0040,,,,,,,,,,,,,0,,,,,P,prés,,,7085,4.452881,46.27965
+2019-1012432,2019-10-17,000001,Vente,1000,,,CHEVAGNY,B016,69790,69002,Aigueperse,69,,,69002000AK0103,,,,,,,,,,,,,0,,,,,P,prés,,,1767,4.452436,46.278446
+2019-1012432,2019-10-17,000001,Vente,1000,,,LA ROCHE,B044,69790,69002,Aigueperse,69,,,69002000AK0109,,,,,,,,,,,,,0,,,,,P,prés,,,1633,4.452747,46.27843
+2019-1012432,2019-10-17,000001,Vente,1000,,,LA ROCHE,B044,69790,69002,Aigueperse,69,,,69002000AK0110,,,,,,,,,,,,,0,,,,,P,prés,,,1895,4.453098,46.279703
+2019-1013149,2019-12-14,000001,Vente,95000,5102,,CHANTE ALOUETTE,B012,69790,69002,Aigueperse,69,,,69002000AH0010,,,,,,,,,,,,,0,1,Maison,103,4,S,sols,,,1652,4.412628,46.283658
+2019-1013149,2019-12-14,000001,Vente,95000,,,CHANTE ALOUETTE,B012,69790,69002,Aigueperse,69,,,69002000AH0255,,,,,,,,,,,,,0,,,,,P,prés,,,1599,4.412491,46.283656

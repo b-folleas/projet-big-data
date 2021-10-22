@@ -1,0 +1,8 @@
+id_mutation,date_mutation,numero_disposition,nature_mutation,valeur_fonciere,adresse_numero,adresse_suffixe,adresse_nom_voie,adresse_code_voie,code_postal,code_commune,nom_commune,code_departement,ancien_code_commune,ancien_nom_commune,id_parcelle,ancien_id_parcelle,numero_volume,lot1_numero,lot1_surface_carrez,lot2_numero,lot2_surface_carrez,lot3_numero,lot3_surface_carrez,lot4_numero,lot4_surface_carrez,lot5_numero,lot5_surface_carrez,nombre_lots,code_type_local,type_local,surface_reelle_bati,nombre_pieces_principales,code_nature_culture,nature_culture,code_nature_culture_speciale,nature_culture_speciale,surface_terrain,longitude,latitude
+2020-697605,2020-02-07,000001,Vente,141425,5068,,LA FEUILLEE,B022,69790,69002,Aigueperse,69,,,690020000D0080,,,,,,,,,,,,,0,1,Maison,180,6,S,sols,,,260,4.409605,46.273507
+2020-697605,2020-02-07,000001,Vente,141425,,,LA FEUILLEE,B022,69790,69002,Aigueperse,69,,,690020000D0083,,,,,,,,,,,,,0,,,,,J,jardins,,,142,4.409771,46.273355
+2020-697605,2020-02-07,000001,Vente,141425,,,LA FEUILLEE,B022,69790,69002,Aigueperse,69,,,690020000D0290,,,,,,,,,,,,,0,,,,,P,prés,,,3426,4.409901,46.273557
+2020-697605,2020-02-07,000001,Vente,141425,,,LA FEUILLEE,B022,69790,69002,Aigueperse,69,,,690020000D0291,,,,,,,,,,,,,0,,,,,J,jardins,,,227,4.409522,46.273426
+2020-698800,2020-05-28,000003,Vente,1500,,,CHANTE ALOUETTE,B012,69790,69002,Aigueperse,69,,,69002000AH0280,,,,,,,,,,,,,0,,,,,P,prés,,,220,4.4132,46.284876
+2020-698800,2020-05-28,000003,Vente,1500,,,CHANTE ALOUETTE,B012,69790,69002,Aigueperse,69,,,69002000AH0284,,,,,,,,,,,,,0,,,,,P,prés,,,275,4.412857,46.284394
+2020-698844,2020-06-16,000001,Vente,1200,,,VAVRE,B052,69790,69002,Aigueperse,69,,,690020000D0227,,,,,,,,,,,,,0,,,,,BR,futaies résineuses,,,8310,4.408615,46.268913
