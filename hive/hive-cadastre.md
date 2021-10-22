@@ -1,16 +1,13 @@
 ```sh
+hdfs dfs -mkdir -p hive/cadastre
+hdfs dfs -rm -p hive/cadastre/cadastre_filtered.csv
+hdfs dfs -copyFromLocal cadastre_filtered.csv hive/cadastre
+
 hive-beeline
 
 drop table cadastre;
 drop table cadastre_wip1;
 drop table cadastre_clean;
-
-ctrl+c
-
-hdfs dfs -rm hive/cadastre/cadastre_filtered.csv
-hdfs dfs -mkdir -p hive/cadastre
-
-hive-beeline
 
 create external table cadastre (
   id_mutation string,
@@ -37,13 +34,6 @@ lines terminated by '\n'
 stored as textfile
 location '/user/formation07/hive/cadastre/'
 tblproperties ("skip.header.line.count"="1");
-
-show tables;
-ctrl c;
-
-hdfs dfs –copyFromLocal cadastre_filtered.csv hive/cadastre
-
-hive-beeline
 
 select * from cadastre limit 10;
 

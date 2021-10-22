@@ -1,7 +1,12 @@
 ```sh
 hdfs dfs -mkdir -p hive/airbnb
+hdfs dfs -rm -p hive/airbnb/airbnb_filtered.csv
+hdfs dfs -copyFromLocal airbnb_filtered.csv hive/airbnb
 
 hive-beeline
+
+drop table airbnb;
+drop table airbnb_clean;
 
 create external table airbnb (
   id int,
@@ -31,14 +36,7 @@ stored as textfile
 location '/user/formation07/hive/airbnb/'
 tblproperties ("skip.header.line.count"="1");
 
-show tables;
-ctrl c;
-
-hdfs dfs –copyFromLocal airbnb_filtered.csv hive/airbnb
-
-hive-beeline
-
-select * from airbnb;
+select * from airbnb  limit 10;
 
 create table airbnb_clean (
   id int,
