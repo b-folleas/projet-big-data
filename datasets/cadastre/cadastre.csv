@@ -1,7 +1,3 @@
-# CSV-File created with merge-csv.com
-# -----------------------------------------------------------
-
-
 id_mutation,date_mutation,numero_disposition,nature_mutation,valeur_fonciere,adresse_numero,adresse_suffixe,adresse_nom_voie,adresse_code_voie,code_postal,code_commune,nom_commune,code_departement,ancien_code_commune,ancien_nom_commune,id_parcelle,ancien_id_parcelle,numero_volume,lot1_numero,lot1_surface_carrez,lot2_numero,lot2_surface_carrez,lot3_numero,lot3_surface_carrez,lot4_numero,lot4_surface_carrez,lot5_numero,lot5_surface_carrez,nombre_lots,code_type_local,type_local,surface_reelle_bati,nombre_pieces_principales,code_nature_culture,nature_culture,code_nature_culture_speciale,nature_culture_speciale,surface_terrain,longitude,latitude
 2016-852417,2016-02-29,000001,Vente,108000,5006,,RUE PRINCIPALE,0035,69170,69001,Affoux,69,,,690010000E0034,,,,,,,,,,,,,0,1,Maison,90,3,S,sols,,,30,4.40315,45.844929
 2016-852417,2016-02-29,000001,Vente,108000,,,LE BOURG,B002,69170,69001,Affoux,69,,,690010000E0035,,,,,,,,,,,,,0,,,,,S,sols,,,25,4.403139,45.844898

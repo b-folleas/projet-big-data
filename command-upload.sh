@@ -1,0 +1,1 @@
+cp /mnt/c/Users/eloib/Downloads/projet-big-data/datasets/cadastre/cadastre_filtered.csv . && cp /mnt/c/Users/eloib/Downloads/projet-big-data/datasets/airbnb/airbnb_filtered.csv . && scp -i sshkey.priv airbnb_filtered.csv formation07@51.68.89.40:/home/formation07 && scp -i sshkey.priv cadastre_filtered.csv formation07@51.68.89.40:/home/formation07
