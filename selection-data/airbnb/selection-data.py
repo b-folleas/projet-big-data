@@ -1,6 +1,6 @@
 import pandas as pd
 
-filepath = '../datasets/airbnb/airbnb.csv'
+filepath = '../../datasets/airbnb/airbnb.csv'
 columns = ['property_type', 'room_type','accommodates','bedrooms','beds']
 
 df = pd.read_csv(filepath)
